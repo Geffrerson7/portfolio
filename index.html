@@ -6,27 +6,43 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Gefferson Casasola Huamancusi | Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/utils.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/sections.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/skillset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/experience.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
 </head>
 
 <body>
+    <style>
+
+    </style>
     <header>
-        <img class="circle" src="assets/img/logos/large.png" alt="large logo" />
+        <img class="circle" src="assets/img/logos/profile.png" alt="large logo" />
         <h1>Gefferson Casasola Huamancusi</h1>
         <hr />
-        <h2>Backen Developer</h2>
+        <h2>Backend Developer</h2>
         <video autoplay loop muted>
             <source src="assets/video/hero.mp4" />
 
         </video>
-        <p>Simple párrafo</p>
     </header>
-    <nav id="navdar" class="open">
+    <nav id="navbar" class="open">
         <div>
             <a href="/">
                 <img class="circle" src="assets/img/logos/small.png" alt="small logo" />
-                <span>Gefferson Casasola Huamancusi <small>Software Engineer</small></span>
+                <span>Gefferson Casasola Huamancusi <small>Backend Developer</small></span>
             </a>
             <button id="hamburger">☰</button>
         </div>
@@ -43,8 +59,16 @@
             <hr />
             <div>
                 <button>
+                    <img src="assets/img/portfolio/inventario.png" />
+                    <h4>Inventory system</h4>
+                </button>
+                <button>
                     <img src="assets/img/portfolio/api-payments-1.png" />
                     <h4>Services Payments API with Django</h4>
+                </button>
+                <button>
+                    <img src="assets/img/portfolio/django-portfolio.png" />
+                    <h4>Portfolio with Django</h4>
                 </button>
                 <button>
                     <img src="assets/img/portfolio/rick-and-morty-1.png" />
@@ -62,56 +86,66 @@
             <h3>Skillset</h3>
             <hr />
             <div>
-                <img src="assets/img/skillset/details-icon-html.png" />
-                <span class="tooltip">HTML</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-css.png" />
-                <span class="tooltip">CSS</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-javascript.png" />
-                <span class="tooltip">Javascript</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-git.png" />
-                <span class="tooltip">GIT</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-bootstrap.png" />
-                <span class="tooltip">Bootstrap</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-node.png" />
-                <span class="tooltip">Node.js</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-express.png" />
-                <span class="tooltip">Express</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-python.png" />
-                <span class="tooltip">Python</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-flask.png" />
-                <span class="tooltip">Flask</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-django.png" />
-                <span class="tooltip">Django</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-docker.png" />
-                <span class="tooltip">Docker</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-linux.png" />
-                <span class="tooltip">Linux</span>
-            </div>
-            <div>
-                <img src="assets/img/skillset/details-icon-aws.png" />
-                <span class="tooltip">AWS</span>
+                <div>
+                    <img src="assets/img/skillset/details-icon-html.png" />
+                    <span class="tooltip">HTML</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-css.png" />
+                    <span class="tooltip">CSS</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-javascript.png" />
+                    <span class="tooltip">Javascript</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-git.png" />
+                    <span class="tooltip">GIT</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-bootstrap.png" />
+                    <span class="tooltip">Bootstrap</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-node.png" />
+                    <span class="tooltip">Node.js</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-express.png" />
+                    <span class="tooltip">Express</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-python.png" />
+                    <span class="tooltip">Python</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-flask.png" />
+                    <span class="tooltip">Flask</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-django.png" />
+                    <span class="tooltip">Django</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-docker.png" />
+                    <span class="tooltip">Docker</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-linux.png" />
+                    <span class="tooltip">Linux</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-aws.png" />
+                    <span class="tooltip">AWS</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-mysql.png" />
+                    <span class="tooltip">MySQL</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/details-icon-mongodb.png" />
+                    <span class="tooltip">MongoDB</span>
+                </div>
             </div>
         </section>
         <section id="experience">
@@ -136,15 +170,14 @@
                     Your message:
                     <textarea name="message"></textarea>
                 </label>
-                                <button type="submit">Send</button>
+                <button type="submit">Send</button>
             </form>
             <nav id="social-media">
-                <a href="https://www.linkedin.com/in/gefferson-casasola/">
-                    <img id="linkedin" src="assets/img/social/linkedin.png"/>
+                <a href="https://www.linkedin.com/in/gefferson-casasola">
+                    <img id="linkedin" src="assets/img/social/linkedin.png" />
                 </a>
-
                 <a href="https://github.com/Geffrerson7">
-                    <img id="github" src="assets/img/social/github.png"/>
+                    <img id="github" src="assets/img/social/github.png" />
                 </a>
             </nav>
 
