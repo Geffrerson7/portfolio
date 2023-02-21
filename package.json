@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geffrerson7/portfolio.git"
+  },
+  "author": "Gefferson Max Casasola Huamancusi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geffrerson7/portfolio/issues"
+  },
+  "homepage": "https://github.com/Geffrerson7/portfolio#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}

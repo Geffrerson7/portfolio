@@ -5,7 +5,11 @@
     margin: 1rem;
 }
 
-
+#skillset img {
+  border-radius: 1rem;
+  max-width: 7rem;
+  cursor: context-menu;
+}
 
 
 #skillset > div > div {
