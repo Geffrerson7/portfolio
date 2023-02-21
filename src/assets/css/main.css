@@ -3,6 +3,8 @@
     --primary-dark: hsl(190, 68%, 50%);
     --secondary:hsl(25, 99%, 63%);
     --secondary-dark: hsl(25, 99%, 60%);
+    --tertiary:hsl(216, 100%, 51%);
+    --quaternary:hsl(0, 100%, 51%);
     --white:#f5f9fa;
     --white2: #ebf3f5;
     --gray:#e1e4e5;
