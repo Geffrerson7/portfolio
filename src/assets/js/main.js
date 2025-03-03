@@ -4,6 +4,7 @@
     hamburger.addEventListener('click', () => {
         navbar.classList.toggle('open');
     });
+    document.getElementById("year").textContent = new Date().getFullYear();
 })()
 
 
